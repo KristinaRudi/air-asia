@@ -1,0 +1,18 @@
+.section__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section__title-text {
+  margin-right: 15px;
+  width: 273px;
+}
+
+.section__title-pic {
+  width: 21px;
+  height: 28px;
+}

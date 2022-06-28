@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  margin-right: 79px;
+  flex-shrink: 0;
+}
+
+.footer .logo {
+  margin-top: -45px;
+}

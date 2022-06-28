@@ -1,0 +1,234 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 52px 29px 32.5px;
+    background: #F4F5F5;
+    line-height: 27px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1A1B1E;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.review__user:after {
+    content: url("../../img/icons/vk-blue.png");
+    height: 30px;
+    margin-left: 8px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.review__tag-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.review__tag-item:last-child {
+    margin-right: 0;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 5px 18px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag_bg_green {
+    background: #B9EAE4;
+}
+
+.review__title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+
+.review__content-text {
+    margin-bottom: 50px;
+}
+
+.review__date {
+    font-family: 14px;
+    color: #1A1B1E;
+    font-weight: bold;
+}
+
+.pager__reviews {
+    margin-top: 56px;
+}
+
+.separator {
+    display: flex;
+    min-height: 365px;
+    background: url("../../img/bg/middleline.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.separator__content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.separator__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 54%;
+}
+
+.separator__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.separator__image {
+    content: "";
+    display: flex;
+    background: url("../../img/decor/couple.png");
+    height: 341px;
+    width: 487px;
+    margin-top: auto;
+}
+
+.section-form {
+    padding: 63px 0px 98px;
+}
+
+.section-form__title {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 54px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background:#fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    line-height: 21.51px;
+    color: #1A1B1E;
+    resize: none;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input:focus {
+    border-color: #F5170E;
+    outline: none;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input_textarea {
+    height: 235px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 37px;
+}
+
+.form__controls-title {
+    width: 38%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.controls__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.controls__item:last-child {
+    margin-right: 0;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked~.controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button {
+    margin-right: 19px;
+}
+
+.form__button:last-child {
+    margin-right: 0px;
+}

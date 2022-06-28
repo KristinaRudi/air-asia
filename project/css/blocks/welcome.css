@@ -1,0 +1,66 @@
+.welcome__container {
+    background: url("../../img/bg/screen.png") center bottom / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: zoom .9s ease-in .5s;
+    animation-fill-mode: forwards;
+}
+
+.central__bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/decor/shades.png);
+    height: 248px;
+    width: 591px;
+}
+
+.central__logo {
+    margin-bottom: -6px;
+}
+
+.central__title {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

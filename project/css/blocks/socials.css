@@ -1,0 +1,46 @@
+.socials {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__socials {
+  margin-right: 73px;
+  margin-bottom: 37px;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background:url("../../img/icons/css_sprites.png") ;
+}
+
+.socials__link:hover {
+  filter: invert(0.5);
+  transition: .3s;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-position:  -122px -10px;
+}
+
+.socials__item--icon--vk .socials__link {
+  background-position: -178px -10px;
+}
+
+.socials__item--icon--fb .socials__link {
+  background-position: -10px -10px;
+}
+
+.socials__item--icon--insta .socials__link {
+  background-position: -66px -10px;
+}
